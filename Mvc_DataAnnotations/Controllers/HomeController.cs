@@ -19,7 +19,7 @@ namespace Mvc_DataAnnotations.Controllers
         {
             if (kullanici.kullaniciAdi=="deneme")
             {
-             //  ModelState.AddModelError("Bu kullanıcı adı daha önce eklenmiş");
+             ModelState.AddModelError("","Bu kullanıcı adı daha önce eklenmiş");
 
             }
             return View();
